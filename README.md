@@ -85,7 +85,6 @@ sudo npm install -g ganache-cli
 ```bash
 cd biop-aboudjem-trading/
 npm install
-npm install --save @truffle/hdwallet-provider
 ```
 
 5. Start Ganache-CLI
@@ -98,4 +97,10 @@ ganache-cli
 
 ```bash
 truffle test
+```
+
+## Migration
+
+```bash
+truffle migrate --network rinkeby
 ```
