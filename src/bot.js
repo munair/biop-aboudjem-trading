@@ -6,8 +6,8 @@ const {
     utils
 } = require('ethers')
 
-// Replace 'Kovan' by any other network
-const provider = getDefaultProvider('kovan');
+// Replace 'Rinkeby' by any other network
+const provider = getDefaultProvider('rinkeby');
 
 
 const jsonFile = [
