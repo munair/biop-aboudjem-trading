@@ -1,4 +1,4 @@
-pragma solidity ^0.5.1;
+pragma solidity >=0.6.6;
 
 interface IUniswapV2Router {
     function swapETHForExactTokens(uint amountOut, address[] calldata path, address to, uint deadline)
@@ -41,4 +41,3 @@ contract Trader {
         return receivedAmount;
     }
 }
-
